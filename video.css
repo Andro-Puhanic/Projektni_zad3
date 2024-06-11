@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Stil za navigaciju */
+nav {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+}
+
+nav h2 {
+    margin-top: 0;
+    font-size: 1.5em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0.5em 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Stil za zaglavlje stranice */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+/* Stil za glavni sadržaj stranice */
+main {
+    padding: 2em;
+    margin: 1em auto;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    max-width: 800px;
+}
+
+/* Stil za video sekciju */
+main section {
+    text-align: center;
+}
+
+video {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+/* Stil za opis videa */
+.videoopis {
+    margin-top: 1em;
+    font-size: 1.1em;
+    color: #666;
+    text-align: center;
+}

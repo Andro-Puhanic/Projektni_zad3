@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+section {
+    padding: 2em;
+    margin: 1em 0;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+h2 {
+    color: #4CAF50;
+}
+
+.artwork {
+    margin-bottom: 2em;
+}
+
+.artwork img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.artwork1 img {
+    height: 300px;
+    max-width: 500px;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.artwork h3 {
+    margin: 0 0 10px;
+    color: #333;
+}
+
+.artwork p {
+    margin: 0;
+    color: #666;
+}
